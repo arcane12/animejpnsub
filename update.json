@@ -1,10 +1,8 @@
 {
-  "packageManager": "<github|npm|bower>",
-  "name": "<package-name>",
-  "repo": "<user>/<repo>",
+  "packageManager": "github",
+  "name": "animejpnsub",
+  "repo": "arcane12/animejpnsub",
   "files": {
-    "basePath": "<dir>",
-    "include": ["<glob-string-1>", "<glob-string-2>"],
-    "exclude": ["<glob-string-3>"]
+    "basePath": "dist/"
   }
 }
