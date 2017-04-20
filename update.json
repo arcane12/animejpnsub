@@ -1,0 +1,10 @@
+{
+  "packageManager": "<github|npm|bower>",
+  "name": "<package-name>",
+  "repo": "<user>/<repo>",
+  "files": {
+    "basePath": "<dir>",
+    "include": ["<glob-string-1>", "<glob-string-2>"],
+    "exclude": ["<glob-string-3>"]
+  }
+}
