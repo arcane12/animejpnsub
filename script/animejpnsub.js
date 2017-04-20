@@ -120,23 +120,6 @@ function playCaption(control) {
 	vjs.currentTime(t);
 }
 
-function searchCues(text) {
-	var cues = $("#animePlayer > track[label=Japanese]")[0].track.cues;
-	var list = document.getElementById('results');
-	list.innerHTML = '';
-
-	for (var i = 0; i < cues.length; i++) {
-		var cuetext = cues[i].getCueAsHTML().textContent;
-	
-		if (cuetext.toLowerCase().indexOf(text.toLowerCase()) != -1) {
-			var option = document.createElement("option");
-			option.text = cuetext;
-			option.setAttribute('data-time', cues[i].startTime);
-			list.add(option);
-		}
-	}
-}
-
 function toggleAdvSub() {
 	$(".advanced_subtitles").toggle();
 }
